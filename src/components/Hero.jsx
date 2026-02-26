@@ -1,5 +1,6 @@
 import React from 'react';
 import Reveal from './Reveal';
+import myProfileImg from '../assets/profile.jpg';
 
 export default function Hero() {
   return (
@@ -100,7 +101,7 @@ export default function Hero() {
           <div className="relative group w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
             <div className="absolute inset-0 bg-indigo-500 rounded-3xl translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500 z-0"></div>
             <img 
-              src="/profile.webp" 
+              src={myProfileImg} 
               alt="Noor Setia" 
               className="absolute inset-0 w-full h-full object-cover rounded-3xl z-10 grayscale group-hover:grayscale-0 transition-all duration-500 border-2 border-white dark:border-slate-800 shadow-xl"
             />
